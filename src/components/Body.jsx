@@ -6,7 +6,7 @@ function Body() {
   const [selectedImage, setSelectedImage] = useState(null);
   const [errors, setErrors] = useState({});
   const [selectedFile, setSelectedFile] = useState(null);
-  const baseURL = "http://rccgadonai.org/api";
+  const baseURL = "https://rccgadonai.org/api";
   const [formData, setFormData] = useState({
     title: "",
     surname: "",
