@@ -62,7 +62,7 @@ function Body() {
 
       console.log(response.data);
       // Handle success or any other logic after the request is sent
-      alert("Thanks for Joining us" + response.data.surname);
+      alert("God Bless you for worshipping with Us" + response.data.surname);
     } catch (error) {
       if (error.response && error.response.status === 400) {
         // Validation errors occurred
@@ -80,9 +80,9 @@ function Body() {
       <div className="bodyformcontainer">
         <div className="bodyformcontainer-sub cl-white">
           <div className="bodyform-greeting">
-            We are Glad To have you with Us Today
+            re you worshipping with us for the first time?
           </div>
-          <div className="subheader">Kindly Let's Know you better</div>
+          <div className="subheader">We want to know you better</div>
         </div>
         <form onSubmit={handleSubmit} className="form">
           {selectedImage && (
