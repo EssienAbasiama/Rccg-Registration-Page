@@ -68,7 +68,7 @@ function Body() {
         // Validation errors occurred
         setErrors(error.response.data.errors);
       } else {
-        alert("Error");
+        alert("Something Went Wrong");
         console.error(error);
         // Handle other types of errors
       }
@@ -80,7 +80,7 @@ function Body() {
       <div className="bodyformcontainer">
         <div className="bodyformcontainer-sub cl-white">
           <div className="bodyform-greeting">
-            re you worshipping with us for the first time?
+            Are you worshipping with us for the first time?
           </div>
           <div className="subheader">We want to know you better</div>
         </div>
