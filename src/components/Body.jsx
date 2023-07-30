@@ -86,7 +86,6 @@ function Body() {
         </div>
         <form onSubmit={handleSubmit} className="form">
           {selectedImage && (
-            
             <div
               style={{
                 backgroundImage: `url(${selectedImage})`,
